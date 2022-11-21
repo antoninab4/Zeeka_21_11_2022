@@ -32,7 +32,17 @@ sudo apt install wget jq git libssl-dev cmake -y
 
 #### Очистим сервер от старой версии.
 ```
-
+systemctl stop zeekad zorod uzid
+systemctl disable zeekad zorod uzid
+rm -rf $HOME/.bazuka*
+rm -rf $HOME/bazuka
+rm -rf $HOME/zoro
+rm -rf $HOME/uzi-miner
+rm -rf $HOME/.zoro
+rm /etc/systemd/system/zeekad.service
+rm /etc/systemd/system/zorod.service 
+rm /etc/systemd/system/uzid.service
+systemctl daemon-reload
 ```
 #### 3.Clone a repository with a node
 ```
