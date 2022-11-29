@@ -63,7 +63,7 @@ cargo install --path .
 
 #### 5.Initialize a node
 ```
-bazuka init --listen 0.0.0.0:8765 --db ~/.bazuka --network groth --external ВАШ-iP:8765 --bootstrap 65.108.193.133:8765 --mnemonic "Сид фраза кратна 6 словам"
+bazuka init --listen 0.0.0.0:8765 --db ~/.bazuka --network groth --external ВАШ-iP:8765 --bootstrap 65.108.193.133:8765 --mnemonic "Сид фраза кратна 12 словам"
 ```
 
 #### 6.Create a service file
